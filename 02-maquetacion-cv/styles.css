@@ -68,8 +68,9 @@
   width: 40%;
 }
 .habilidades{
-  padding: 50px;
+  padding:50px;
   text-align: center;
+  align-items: center;
   background: linear-gradient(rgba(141, 139, 139, 0.3), rgba(24, 23, 23, 0.3)),
   url("Fondo.jpg");
   background-size: cover;
@@ -85,5 +86,25 @@
 .habilidades .contenido-seccion h2{
   text-transform: uppercase;
   font-size: 30px;
+  padding-bottom: 30px;
 }
-
+.habilidades .contenido-seccion h3{
+  text-align: left;
+  padding:10px;
+}
+.progress {
+  height: 40px;
+  width: 70%;
+  border: 2px solid #e690bf;
+  border-radius: 5px;
+  background-color: #e6f3fa;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.progress-bar {
+  height: 100%;
+  background: #e690bf;
+  display: flex;
+  transition: width 0.25s;
+  align-items: center;
+}
