@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+  *{
+  font-family: 'Poppins', sans-serif;
+  margin:0%;
+  padding:0%;
+  }
+  html{
+    scroll-behavior: smooth;
+}
+.inicio{
+  text-align: center;
+  background: linear-gradient(rgba(141, 139, 139, 0.3), rgba(24, 23, 23, 0.3)),
+  url("Fondo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+}
+.inicio .contenido-seccion .Nombre{
+  font-size: 40px;
+}
+.inicio .contenido-seccion{
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+.sobremi{
+  background-color: #e6e6e6;
+  padding: 30px;
+  text-align: center;
+}
+
+.sobremi .contenido-seccion h2{
+  font-size: 40px;
+  color:#666;
+}
+.sobremi .contenido-seccion h3{
+  font-size: 20px;
+  color:#666;
+}
+.sobremi .contenido-seccion .especial{
+  color: #e690bf;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.sobremi .contenido-seccion .Perfil{
+  color:#666;
+  font-size: 25px;
+  font-weight:bold;
+}
+.sobremi .contenido-seccion p{
+  max-width: 700px;
+  margin: auto;
+  color: #666;
+}
+.sobremi .contenido-seccion .Intereses{
+  color:#666;
+  font-size: 25px;
+  font-weight:bold;
+}
+.sobremi .contenido-seccion .fila{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.sobremi .contenido-seccion .fila .col{
+  width: 40%;
+}
+.habilidades{
+  padding: 50px;
+  text-align: center;
+  background: linear-gradient(rgba(141, 139, 139, 0.3), rgba(24, 23, 23, 0.3)),
+  url("Fondo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fff;
+}
+.habilidades .contenido-seccion{
+  max-width: 1000px;
+  margin: auto;
+  padding: 0px;
+}
+.habilidades .contenido-seccion h2{
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
